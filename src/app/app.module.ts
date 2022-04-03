@@ -10,14 +10,22 @@ import { RouterModule } from '@angular/router';
 import { ListDetailsComponent } from './list-details/list-details.component';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, RouterModule.forRoot([
-    {path: '' , component: HomeComponent},
-    {path: 'list' , component: ListComponent},
-    {path: 'list/:index' , component: ListDetailsComponent}
-
-  ]
-  )],
-  declarations: [AppComponent, HelloComponent, HomeComponent, ListComponent],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    RouterModule.forRoot([
+      { path: '', component: HomeComponent },
+      { path: 'list', component: ListComponent },
+      { path: 'list/:index', component: ListDetailsComponent },
+    ]),
+  ],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    HomeComponent,
+    ListComponent,
+    ListDetailsComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,0 +1,14 @@
+div {
+  width: 90%;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+}
+h2 {
+  text-align: center;
+}
+
+.nome {
+  text-align: center;
+  font-weight: bold;
+}
